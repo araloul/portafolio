@@ -1,0 +1,116 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #E5DED5;
+    height: 150px;
+    width: 100%;
+    padding: 20px;
+
+    
+}
+nav ul{
+    display: inline;
+    float:left;
+    font-family: 'Victor Mono', monospace;
+    font-size: 40px;   
+    padding: 15px;
+}
+/* COMO HACER QUE EMPIECE PRIMERO EMAIL y  */
+.images{
+    height: 51px;
+    float: right;
+    
+
+    padding: 1px;
+    margin: 18px;
+}
+.INICIO{
+    background-color:#F5F5F5;
+    text-decoration: underline;
+}
+.sobremi{
+    font-family:'Victor Mono',  monospace;
+    text-align: center;
+    padding: 50px;
+
+}
+.HABILIDADES{
+    font-family:'Victor Mono',  monospace;
+    text-align: left;
+    padding: 50px;
+
+}
+.informacion{
+    padding: 0px;
+    margin: 20px;
+    text-indent: 0;
+    text-align:center;
+    
+}
+
+#hola{
+    font-family:'Victor Mono',  monospace;
+    font-size: 89px;
+   
+}
+#soy{
+    font-family: 'Victor Mono',  monospace;
+    font-size: 78px;
+}
+#desarrolladora{
+    font-family: 'Victor Mono',  monospace;
+    font-size: 64px;
+    background-color: #E5DED5;
+
+}
+#creativa{
+    font-family: 'Vicor Mono' ,monospace;
+    font-size: 32px;
+    
+}
+.flecha{
+    justify-content: center;
+}
+html{
+    height: 100%;
+}
+body{
+    background: #F5F5F5;
+    min-height: 100%;
+}
+@media (min-width: 425px){
+.grid-container{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "navbar"
+
+    ;
+}
+}
+
+/*@media (min-width:  768px){
+    .grid-container{
+        display: grid;
+        grid-template-areas: 
+        "navbar navbar"
+        "informacion informacion"
+        ;
+
+    }
+}
+/*@media (min-width:  1200px){
+    .grid-container{
+        display: grid;
+        grid-template-areas: 
+        "navbar navbar navbar"
+        "informacion informacion navbar"
+        ;
+
+    }
+}*/
+
